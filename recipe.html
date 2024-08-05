@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="recipe.css">
+    <style>
+        body {
+            background-image: url('food.avif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding-top: 15%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <h1>Recipe Finder</h1>
+        <form id="recipe-form">
+            <input type="text" id="recipe-input" placeholder="Enter ingredient or dish name" required>
+            <button type="submit">Find Recipes</button>
+        </form>
+        <div id="recipes-container"></div>
+    </div>
+    <script src="recipe.js"></script>
+</body>
+</html>
